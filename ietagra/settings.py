@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'faculty',
     'students',
     'departments',
+    'carousel',
 ]
 
 MIDDLEWARE = [
