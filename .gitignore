@@ -12,6 +12,7 @@ db.sqlite3
 db.sqlite3-journal
 **/**/migrations/
 **/**/__pycache__/
+media/
 
 
 # Jupyter Notebook
