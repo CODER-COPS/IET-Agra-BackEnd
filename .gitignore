@@ -2,9 +2,6 @@
 pip-log.txt
 pip-delete-this-directory.txt
 
-
-
-
 # Django stuff:
 *.log
 local_settings.py
@@ -13,7 +10,6 @@ db.sqlite3-journal
 **/**/migrations/
 **/**/__pycache__/
 media/
-
 
 # Jupyter Notebook
 .ipynb_checkpoints
