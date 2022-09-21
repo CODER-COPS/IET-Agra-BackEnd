@@ -6,7 +6,7 @@ from carousel.serializers import CarouselSerializer
 
 
 @api_view(['GET', 'POST'])
-def carousel_list(request):
+def carousel_list(request, format=None):
     """
     List all carousel, or create a new carousal.
     """
@@ -24,7 +24,7 @@ def carousel_list(request):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-def carousel_detail(request, pk):
+def carousel_detail(request, pk, format=None):
     """
     Retrieve, update or delete a carousel.
     """
