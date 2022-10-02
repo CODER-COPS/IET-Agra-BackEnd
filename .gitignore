@@ -1,15 +1,6 @@
-# # PyInstaller
-# #  Usually these files are written by a python script from a template
-# #  before PyInstaller builds the exe, so as to inject date/other infos into it.
-# *.manifest
-# *.spec
-
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
-
-
 
 # Django stuff:
 *.log
@@ -18,8 +9,7 @@ db.sqlite3
 db.sqlite3-journal
 **/**/migrations/
 **/**/__pycache__/
-
-
+media/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -37,3 +27,4 @@ env/
 
 # Pyre type checker
 .pyre/
+
