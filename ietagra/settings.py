@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 
     'ckeditor',
 
-    # 'api',
+    'api',
     # 'api.faculty',
     # 'api.students',
     # 'api.departments',
