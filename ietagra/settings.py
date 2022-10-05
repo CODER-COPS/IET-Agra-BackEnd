@@ -39,14 +39,18 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    "corsheaders",
     'rest_framework',
+    'rest_framework.authtoken',
 
     'ckeditor',
 
-    'faculty',
-    'students',
-    'departments',
-    'carousel',
+    # 'api',
+    # 'api.faculty',
+    # 'api.students',
+    # 'api.departments',
+    'api.carousel',
+    'api.notification',
 ]
 
 MIDDLEWARE = [
@@ -57,6 +61,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
 ]
 
 ROOT_URLCONF = 'ietagra.urls'
@@ -131,7 +138,7 @@ MEDIA_URL = '/media/'
 
 
 # Path where media is stored
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
