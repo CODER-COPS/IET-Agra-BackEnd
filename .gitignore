@@ -9,7 +9,7 @@ db.sqlite3
 db.sqlite3-journal
 **/**/migrations/
 **/**/__pycache__/
-media/
+**/__pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -28,3 +28,5 @@ env/
 # Pyre type checker
 .pyre/
 
+# Media ignore
+media/
