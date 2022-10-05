@@ -6,5 +6,5 @@ urlpatterns = [
     path('', home, name='api.home'),
 
     path('carousel/', include('api.carousel.urls')),
-    
+
 ]
