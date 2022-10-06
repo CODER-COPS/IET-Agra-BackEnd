@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # 'api.departments',
     'api.carousel',
     'api.notification',
+    'api.event'
 ]
 
 MIDDLEWARE = [
