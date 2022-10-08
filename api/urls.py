@@ -7,5 +7,6 @@ urlpatterns = [
 
     path('carousel/', include('api.carousel.urls')),
     path('notification/', include('api.notification.urls')),
+    path('event/', include('api.event.urls')),
 
 ]
