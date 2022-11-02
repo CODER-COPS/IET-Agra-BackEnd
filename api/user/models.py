@@ -31,7 +31,4 @@ class User(AbstractUser):
     roles = models.ManyToManyField(Role)
 
 
-class Student(models.Model):
-    user = models.OneToOneField(
-        User, on_delete=models.CASCADE, primary_key=True)
-    name = models.CharField(max_length=100)
+
